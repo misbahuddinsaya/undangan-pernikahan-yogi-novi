@@ -22,13 +22,13 @@ export const audio = (() => {
         if (button.getAttribute('data-status') !== 'true') {
             button.setAttribute('data-status', 'true');
             getAudio().play();
-            button.innerHTML = '<i class="fa-solid fa-circle-pause spin-button"></i>';
+            button.innerHTML = '<i class="fa-solid fa-circle-pause spin-button" style="color: white;"></i>';
             return;
         }
 
         button.setAttribute('data-status', 'false');
         getAudio().pause();
-        button.innerHTML = '<i class="fa-solid fa-circle-play"></i>';
+        button.innerHTML = '<i class="fa-solid fa-circle-play" style="color: white;"></i>';
     };
 
     const showButton = () => {
