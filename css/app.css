@@ -59,6 +59,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1056 !important;
+    background-color:#efe7dd;
 }
 
 .card-body {
@@ -144,15 +145,26 @@ footer {
 }
 
 .color-theme-white {
-    color: white;
+    color: #cbab5f;
+}
+
+.color-theme-coklat{
+    background-color: #91634d;
+    color: #91634d;
+}
+
+.color-theme-putih{
+    background-color: #efe7dd;
+    color: #efe7dd;
 }
 
 .color-theme-black {
-    color: black;
+    background-color: #efe7dd;
+    color: #91634d;
 }
 
 .bg-cover-black {
-    background: linear-gradient(to bottom, rgba(var(--bs-dark-rgb), 0.9), rgba(var(--bs-dark-rgb), 0.9), rgba(var(--bs-dark-rgb), 0.9), rgba(var(--bs-dark-rgb), 0.9), rgba(var(--bs-dark-rgb), 0.9), rgba(var(--bs-dark-rgb), 1));
+    background: linear-gradient(to bottom, rgba(239, 231, 221, 0.9), rgba(239, 231, 221, 0.9), rgba(239, 231, 221, 0.9), rgba(239, 231, 221, 0.9), rgba(239, 231, 221, 0.9), rgba(239, 231, 221, 1));
 }
 
 .bg-cover-white {
