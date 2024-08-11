@@ -160,7 +160,8 @@ footer {
 }
 
 .color-theme-black {
-    color: #91634d;
+    background-color: #91634d;
+    color: #efe7dd;
 }
 
 .bg-cover-black {
